@@ -1,0 +1,4 @@
+Le data entry sono le coppie chiave-valore la quale chiave viene utilizzata all'interno del B-Albero:
+- **<k, tupla>**: quando le data entry corrispondono alla tupla della tabella, caso possibile quando si impiega un **indice clusterizzato**.
+- **<k, RID>**: le data entry hanno un riferimento RID (Record ID) all'interno della pagina, caso tipico dell'**indice primario** o **indice clusterizzato non area primaria**.
+- **<k, lista_di_RID>**: le data entry hanno un puntatore ad una lista di RID che contiene tutti i riferimenti ai record che condividono la chiave, è associato spesso agli **indici secondari**.

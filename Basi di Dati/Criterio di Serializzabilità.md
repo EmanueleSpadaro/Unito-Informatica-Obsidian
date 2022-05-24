@@ -1,0 +1,2 @@
+## Criterio di Serializzabilità
+Il criterio di serializzabilità determina che una [[storia]] $S$ è [[Storia#Storie seriali o Storie corrette|corretta]] se è [[Storia#Storia equivalente o view-equivalente|view-equivalente]] ad una qualsiasi delle sue [[Storia#Storie seriali o Storie corrette|storie seriali]].
