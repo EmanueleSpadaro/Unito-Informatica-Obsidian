@@ -1,4 +1,4 @@
-Gli indici risiedono fuori dall'area primaria si suddividono in:
+Gli indici risiedono fuori dall'area primaria e si suddividono in:
 - **Indice primario**: è un indice con diretta corrispondenza all'attributo chiave con il quale i record vengono ordinati, che non permette quindi la presenza di duplicati all'interno del [[B-Albero]].
 - **Indice clusterizzato**: è un indice applicato su attributi non chiave con il quale viene effettuato l'ordinamento, permettendo la presenza di duplicati poiché non primari.
   **Può essere fuso con l'area primaria rendendo le data entry del tipo *<k, tupla>***, rendendo il [[B+Albero]] la vera area primaria, contenendo sia dati che indici.
